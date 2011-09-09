@@ -1,0 +1,6 @@
+这是Android下获取root用户权限的程序,修改自Superuser.apk的su源代码
+
+不需要任何手工确认,任何程序均可获取通过本程序获取root权限
+
+必须设置su程序的权限为6777,并确保所在分区支持suid
+chmod 6777 su
