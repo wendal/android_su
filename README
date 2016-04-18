@@ -4,3 +4,7 @@
 
 必须设置su程序的权限为6777,并确保所在分区支持suid
 chmod 6777 su
+
+# 注意
+
+Android 4.4+ 上不可用. 需要install-recovery.sh 启动一个后台进程(root权限), 然后与其通信.
